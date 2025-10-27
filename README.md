@@ -12,4 +12,4 @@ This project is scaffolded to meet the assignment:
 - Smooth scrolling, responsive layout, blue gradient palette, hover animations
 - Optional Framer Motion animations included
 
-Note: This is a frontend-only scaffold. No backend is provided.
+
