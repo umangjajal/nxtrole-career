@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll for all links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Gradient button */
+.btn-gradient {
+  @apply bg-gradient-blue text-white font-semibold px-5 py-2 rounded-lg shadow-glow transition-transform;
+}
+
+.btn-gradient:hover {
+  @apply scale-105 shadow-lg;
+}
+
+/* Dark mode transitions */
+body {
+  @apply transition-colors duration-500 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+}
